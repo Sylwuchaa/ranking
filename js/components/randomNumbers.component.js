@@ -12,7 +12,7 @@ RandomNumbers.prototype.init = function () {
     setInterval(function () {
         self.removeOldList();
         self.getData();
-    }, 1000);
+    }, 10000);
 };
 
 RandomNumbers.prototype.removeOldList = function () {
